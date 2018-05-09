@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Laracarte</title>
+    <title>{{page_title($title ?? '' )}} </title>
+
     <!-- use mobile(ressponsive) -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- google font-->
@@ -32,7 +33,7 @@
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
   }
   footer{
-  
+
     margin: 4em 0;
   }
 </style>
